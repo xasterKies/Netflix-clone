@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
 
-const base_url = "https://api.themoviedb.org/3/movie/550?api_key=010cf02106be78cd97145ccefed2ec7d";
+const base_url = "htttps://image.tmdb.org/t/p/original/";
 
 function Row({title, fetchUrl}) {
     const [movies, setMovies] = useState([]);
@@ -23,7 +23,7 @@ function Row({title, fetchUrl}) {
             <div className="row__posters">
                 {/*several row__posters */}
                 {movies.map(movie => (
-                  <img src={movie.poster_path} alt={movie.name}/> 
+                <img src={`${base_url}${movie.poster_path}`} alt={movie.name}/> 
                 ))}
                 
             </div>
