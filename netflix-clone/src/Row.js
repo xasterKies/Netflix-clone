@@ -3,11 +3,11 @@ import axios from './axios';
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
-function Row({title}) {
+function Row({title, fetch}) {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        async function fetch() {
+        async function fetchData() {
             const request = await axios.get(fetchUrl);
             setMovies(request.data.results);
             return request;
