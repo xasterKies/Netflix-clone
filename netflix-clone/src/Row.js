@@ -4,6 +4,8 @@ function Row() {
     return(
         <div>
             {/* title */}
+
+            {/* continer -> poster */}
         </div>
     )
 }
