@@ -6,16 +6,22 @@ function Row({title}) {
 
     useEffect(() => {
         async function fetch() {
-            const request = await.get(fetchUrl);
-            console
+            const request = await axios.get(fetchUrl);
+            setMovies(request.data.results);
+            return request;
         }
         fetchData();
-    }, []);
+    }, [fetchUrl]);
+
 
     return(
-        <div>
+        <div className="row">
            <h2>{title}</h2> 
 
+            <div className="row__posters">
+                {/*several row__posters */}
+                {movies.map()}
+            </div>
 
             {/* continer -> poster */}
         </div>
