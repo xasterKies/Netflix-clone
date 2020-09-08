@@ -5,7 +5,11 @@ function Row({title}) {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-
+        async function fetch() {
+            const request = await.get(fetchUrl);
+            console
+        }
+        fetchData();
     }, []);
 
     return(
