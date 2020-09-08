@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from './axios';
 import requests from './requests';
 
-const base_url = "https://image.tmdb.org/t/p/original/";
+const base_url = "https://api.themoviedb.org/3/movie/550?api_key=010cf02106be78cd97145ccefed2ec7d";
 
 function Row({title, fetchUrl}) {
     const [movies, setMovies] = useState([]);
@@ -10,7 +10,6 @@ function Row({title, fetchUrl}) {
     useEffect(() => {
         async function fetchData(){
             const request = await axios.get(fetchUrl);
-            console.log(request);
             setMovies(request.data.results);
             return request;
         }
