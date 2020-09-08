@@ -5,5 +5,5 @@ const requests = {
     fetchNetflixOriginals: '/discover/tv?api_key=${API_KEY}&with_networks=213',
     fetchTopRated: '/movie/top-related?api_key=${API_KEY}%language=en-US'
     fetchActionMovies: 'discover/movie?api-keys${API_KEY}&with_genres=28'
-
+    fectchComedyMovies
 }
