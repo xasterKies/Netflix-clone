@@ -11,7 +11,7 @@ function Row({title, fetchUrl}) {
         async function fetchData(){
             const request = await axios.get(fetchUrl);
             console.log(request);
-            setMovies(requests.data.results);
+            setMovies(request.data.results);
             return request;
         }
         fetchData();
