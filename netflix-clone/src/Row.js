@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
-import requests from './requests';
 
 const base_url = "https://api.themoviedb.org/3/movie/550?api_key=010cf02106be78cd97145ccefed2ec7d";
 
