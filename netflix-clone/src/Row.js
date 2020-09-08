@@ -1,3 +1,11 @@
-import React form 'react';
+import React from 'react';
 
-function 
+function Row() {
+    return(
+        <div>
+            
+        </div>
+    )
+}
+
+export default Row;
