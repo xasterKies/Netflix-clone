@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Row({title}) {
-    
+    const [movies, setMovies]
 
     return(
         <div>
