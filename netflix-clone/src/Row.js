@@ -20,7 +20,7 @@ function Row({title}) {
 
             <div className="row__posters">
                 {/*several row__posters */}
-                {movies.map()}
+                {movies.map(movie )}
             </div>
 
             {/* continer -> poster */}
