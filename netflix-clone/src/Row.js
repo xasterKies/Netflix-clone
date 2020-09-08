@@ -27,7 +27,7 @@ function Row({title, fetchUrl}) {
                 ))}
             </div>
 
-            {/* continer -> poster */}
+            {/* container -> poster */}
         </div>
     )
 }
