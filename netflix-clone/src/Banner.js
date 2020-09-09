@@ -24,7 +24,8 @@ function Banner() {
     return (
         <header className="banner"
           style={{
-              backgroundSize: "cover"
+              backgroundSize: "cover",
+              backgroundImage: `url("http")`
           }}
         >
             <div className="banner__contents">
