@@ -44,5 +44,5 @@
 .banner__button:hover {
     color: #000;
     background-color: #e6e6e6;
-    transition
+    transition: all 0.2s;
 }
