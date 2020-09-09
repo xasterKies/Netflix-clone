@@ -22,7 +22,11 @@ function Banner() {
     console.log(movie);
 
     return (
-        <header className="banner">
+        <header className="banner"
+          style={{
+              backgroundSize: "cover"
+          }}
+        >
             <div className="banner__contents">
                 <h1></h1>
             </div>
