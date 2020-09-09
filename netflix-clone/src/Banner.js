@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import { from "a";
+import axios from "./axios";
 
 function Banner() {
     const [movie, setMovie] = useState([]);
