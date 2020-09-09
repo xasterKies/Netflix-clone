@@ -8,7 +8,10 @@ function Banner() {
     useEffect(() => {
         async function fetchData(){
             const request = await axios.get(requests.fetchNetflixOriginals);
-            Math.floor(Math.random() * requests.data.results.length - 1)
+            console.log(request.data.results[
+                Math.floor(Math.random() * requests.data.results.length - 1)
+            ])
+            
             
         }
         fetchData();
