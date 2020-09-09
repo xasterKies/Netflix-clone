@@ -10,7 +10,7 @@ function Banner() {
             const request = await axios.get(requests.fetchNetflixOriginals);
             
             console.log(request.data.results[
-                Math.floor(Math.random() * requests.data.results.length - 1)
+                Math.floor(Math.random() * request.data.results.length - 1)
             ]);
             
             
