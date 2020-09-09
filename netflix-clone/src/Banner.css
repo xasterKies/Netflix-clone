@@ -28,4 +28,5 @@
 .banner__button{
     cursor: pointer;
     color: #fff;
+    outline: none;
 }
