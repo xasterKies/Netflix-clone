@@ -1,12 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useState,useEffect } from 'react'
 
 function Banner() {
     const [movie, setMovie] = useState([]);
 
     useEffect(() => {
+        async function fetchData(){
+            
+        }
         
-        
-    }, [input])
+    }, [])
 
 
     return (
