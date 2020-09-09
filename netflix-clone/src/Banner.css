@@ -17,5 +17,6 @@
 }
 
 .banner__descripion{
-    
+    width: 45rem;
+    line-height: 1.3;
 }
