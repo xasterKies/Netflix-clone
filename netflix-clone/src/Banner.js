@@ -7,7 +7,9 @@ function Banner() {
 
     useEffect(() => {
         async function fetchData(){
-
+            const request = await axios.get(requests.fetchNetflixOriginals);
+            Math.floor
+            
         }
         fetchData();
     }, [])
