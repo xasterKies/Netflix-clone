@@ -13,7 +13,7 @@ function App() {
       <Row title="Comedy Movies" fetchUrl={requests.fetchTrending}/>
       <Row title="Horror Movies" fetchUrl={requests.fetchTrending}/>
       <Row title="Romance Movies" fetchUrl={requests.fetchTrending}/>
-      <Row title="Documentair now" fetchUrl={requests.fetchTrending}/>
+      <Row title="Documentairies" fetchUrl={requests.fetchTrending}/>
     </div>
   );
 }
