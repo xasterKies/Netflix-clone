@@ -56,5 +56,10 @@
   }
 
 .banner__fadeBottom {
-    
+    height: 7.4rem;
+    background-image: linear-gradient(
+        100deg,
+        transparent,
+        rgba(37, 37, 0.61)
+    );
 }
