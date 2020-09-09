@@ -33,6 +33,10 @@ function Banner() {
                 <h1>
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
+                <div>
+                    
+                </div>
+
             </div>
         </header>
     )
