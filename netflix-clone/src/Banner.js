@@ -20,6 +20,11 @@ function Banner() {
         fetchData();
     }, []);
 
+    function truncate(str, n){
+        return str?.length > n ? str.substr(0)
+    }
+
+
     console.log(movie);
 
     return (
