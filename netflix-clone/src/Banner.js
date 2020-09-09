@@ -23,8 +23,9 @@ function Banner() {
 
     return (
         <header className="banner">
-            
-
+            <div className="banner__contents">
+                
+            </div>
         </header>
     )
 }
