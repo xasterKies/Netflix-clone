@@ -22,8 +22,9 @@ function Banner() {
     console.log(movie);
 
     return (
-        <header>
+        <header className="banner">
             
+
         </header>
     )
 }
