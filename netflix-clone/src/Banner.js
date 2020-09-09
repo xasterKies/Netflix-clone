@@ -38,6 +38,9 @@ function Banner() {
                     <button className="banner__button">My List</button>
                 </div>
 
+                <h1>
+                    
+                </h1>
             </div>
         </header>
     )
