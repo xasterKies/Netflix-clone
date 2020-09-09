@@ -24,3 +24,8 @@
     max-width: 360px;
     height: 80px;
 }
+
+.banner__button{
+    cursor: pointer;
+    color: #fff;
+}
