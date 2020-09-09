@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Banner() {
-    const [movie, setMovie] = useState
+    const [movie, setMovie] = useState([]);
+
+    useEffect(() => {
+        
+        
+    }, [input])
 
 
     return (
