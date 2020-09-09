@@ -25,7 +25,7 @@ function Banner() {
         <header className="banner"
           style={{
               backgroundSize: "cover",
-              backgroundImage: `url("http")`
+              backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie}")`
           }}
         >
             <div className="banner__contents">
