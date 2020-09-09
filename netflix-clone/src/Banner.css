@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .banner__{
-        
+    .banner__contents{
+        padding-left: -140px;
     }
   }
