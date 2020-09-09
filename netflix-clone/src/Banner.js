@@ -31,7 +31,7 @@ function Banner() {
         >
             <div className="banner__contents">
                 <h1>
-                    {movie?.title || movie?.name}
+                    {movie?.title || movie?.name || moi}
                 </h1>
             </div>
         </header>
