@@ -11,7 +11,7 @@ function App() {
       <Row title="Top Rated" fetchUrl={requests.fetchTrending}/>
       <Row title="Action Movies" fetchUrl={requests.fetchTrending}/>
       <Row title="Comedy Movies" fetchUrl={requests.fetchTrending}/>
-      <Row title="Trending now" fetchUrl={requests.fetchTrending}/>
+      <Row title="Horror Movies" fetchUrl={requests.fetchTrending}/>
       <Row title="Trending now" fetchUrl={requests.fetchTrending}/>
       <Row title="Trending now" fetchUrl={requests.fetchTrending}/>
     </div>
