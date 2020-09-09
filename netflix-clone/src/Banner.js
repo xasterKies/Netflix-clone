@@ -39,7 +39,7 @@ function Banner() {
                 </div>
 
                 <h1 className="banner__description">
-
+                    {movie?.overview}
                 </h1>
             </div>
         </header>
