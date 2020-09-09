@@ -26,6 +26,6 @@
 }
 
 .row__posterLarge:hover {
-    transform: sc
+    transform: scale(1.10);
 }
 
