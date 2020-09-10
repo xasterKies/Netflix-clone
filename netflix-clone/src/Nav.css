@@ -7,10 +7,15 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0;
-    background-color: #000;
     height: 50px;
     width: 100%;
     z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__black{
+    background-color: #000;
 }
 
 .nav__logo{
