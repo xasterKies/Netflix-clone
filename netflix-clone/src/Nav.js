@@ -7,17 +7,17 @@ function Nav() {
 
             <img
             className="nav__logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/0/0f"
+            src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=600"
             alt="Netflix Logo"
             />
 
             <img
                className="nav-avatar" 
-               src = "https://pbs.twing.com/profile_images/124011999841155"
-            
+               src = "https://pbs.twimg.com/profile_images/124011999841155"
+            alt="Netflix-user"
             />
         </div>
     )
 }
 
-export default Nav
+export default Nav;
