@@ -7,8 +7,11 @@ function Nav() {
 
             <img
             className="nav__logo"
-            src="https://"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0f"
+            alt="Netflix Logo"
             />
+
+            img
         </div>
     )
 }
