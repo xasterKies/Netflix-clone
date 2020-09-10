@@ -10,10 +10,11 @@
     background-color: #000;
     height: 50px;
     width: 100%;
+    z-index: 1;
 }
 
 .nav__logo{
-    width: 120px;
+    width: 140px;
     object-fit: contain;
     left:20px;
 
