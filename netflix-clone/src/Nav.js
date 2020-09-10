@@ -3,7 +3,7 @@ import './Nav.css'
 
 function Nav() {
     return (
-        <div className="nav__logo">
+        <div className="nav">
 
             <img
             className="nav__logo"
