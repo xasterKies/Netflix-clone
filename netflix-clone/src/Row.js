@@ -34,8 +34,9 @@ function Row({title, fetchUrl, isLargeRow}) {
         } else {
             movieTrailer(movie?.name || "")
             .then(url => {
-                
+              const
             })
+            .catch((error) => console.log(error));
         }
      }
 
