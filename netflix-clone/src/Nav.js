@@ -11,7 +11,9 @@ function Nav() {
             alt="Netflix Logo"
             />
 
-            img
+            <img
+                
+            />
         </div>
     )
 }
