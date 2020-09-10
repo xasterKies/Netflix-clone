@@ -13,9 +13,9 @@ function Nav() {
 
 
             <img
-            className="nav__logo"
+            className="nav__avatar"
             src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=600"
-            alt="Netflix Logo"
+            alt=""
             />
 
             
