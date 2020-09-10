@@ -32,6 +32,7 @@ function Row({title, fetchUrl, isLargeRow}) {
                 }
             
             </div>
+            <YouTube videoId={trailer} opts={opts}/>
 
             {/* container -> poster */}
         </div>
