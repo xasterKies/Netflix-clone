@@ -28,6 +28,7 @@ function Row({title, fetchUrl, isLargeRow}) {
         },
      };
 
+     const handleClick =
 
     return(
         <div className="row">
