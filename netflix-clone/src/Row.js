@@ -22,7 +22,7 @@ function Row({title, fetchUrl, isLargeRow}) {
         height: "390",
         width:  "100%",
         playerVars: {
-        //https://
+        //https://developers.google.com/youtube/player_parameters
         autoplay: 1,
         },
      };
@@ -42,7 +42,7 @@ function Row({title, fetchUrl, isLargeRow}) {
                 }
             
             </div>
-            <YouTube videoId={trailer} opts={opts}/>
+            <YouTube videoId={trailerUrl} opts={opts}/>
 
             {/* container -> poster */}
         </div>
