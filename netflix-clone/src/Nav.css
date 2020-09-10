@@ -6,6 +6,6 @@
 
 .nav__logo{
     width: 80px;
-    o
+    object-fit: contain;
 
 }
