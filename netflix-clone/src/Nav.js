@@ -6,7 +6,11 @@ function Nav() {
         <div className="nav">
 
             useEffect(() => {
-                window.addEventListener("scroll")
+                window.addEventListener("scroll", () => {
+                    if (window.scrollY > 100){
+                        handleShow(true);
+                    }
+                })
                 
             }, [])
             <img
