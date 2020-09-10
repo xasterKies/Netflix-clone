@@ -6,9 +6,9 @@ function Nav() {
         <div className="nav">
 
             useEffect(() => {
+                window.addEventListener("scroll")
                 
-                
-            }, [input])
+            }, [])
             <img
             className="nav__logo"
             src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=600"
