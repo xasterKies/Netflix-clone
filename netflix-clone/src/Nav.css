@@ -12,5 +12,5 @@
 
 .nav__avatar{
     width: 30px;
-    obje
+    object-fit: contain;
 }
