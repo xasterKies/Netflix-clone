@@ -32,7 +32,10 @@ function Row({title, fetchUrl, isLargeRow}) {
         if (trailerUrl){
             setTrailerUrl('');
         } else {
-            movie
+            movieTrailer(movie?.name || "")
+            .then(url => {
+                
+            })
         }
      }
 
