@@ -3,8 +3,12 @@ import './Nav.css'
 
 function Nav() {
     return (
-        <div>
-            
+        <div className="nav__logo">
+
+            <img
+            className="nav__logo"
+            src="https://"
+            />
         </div>
     )
 }
