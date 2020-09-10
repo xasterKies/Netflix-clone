@@ -17,7 +17,7 @@ function Nav() {
         
     }, []);
     return (
-        <div className={nav}>
+        <div className={`nav ${show && "nav__black"}`}>
             <img
             className="nav__logo"
             src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=600"
