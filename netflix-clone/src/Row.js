@@ -19,7 +19,8 @@ function Row({title, fetchUrl, isLargeRow}) {
     }, [fetchUrl]);
 
     const opts = {
-        height: = ""
+        height: "390",
+        width: 
     }
 
 
