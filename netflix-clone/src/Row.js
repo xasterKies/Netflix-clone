@@ -28,7 +28,13 @@ function Row({title, fetchUrl, isLargeRow}) {
         },
      };
 
-     const handleClick =
+     const handleClick = (movie) => {
+        if (trailerUrl){
+            setTrailerUrl('');
+        } else {
+            movie
+        }
+     }
 
     return(
         <div className="row">
