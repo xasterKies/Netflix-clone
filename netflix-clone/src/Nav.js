@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Nav.css'
 
 function Nav() {
-    const [show, handleShow]
+    const [show, handleShow] = useState(false);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
