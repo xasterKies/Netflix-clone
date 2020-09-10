@@ -12,7 +12,9 @@ function Nav() {
             />
 
             <img
-                
+               className="nav-avatar" 
+               src = "https://pbs.twing.com/profile_images/124011999841155"
+            
             />
         </div>
     )
