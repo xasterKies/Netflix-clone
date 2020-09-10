@@ -3,10 +3,11 @@
     top: 0;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .nav__logo{
-    width: 80px;
+    width: 120px;
     object-fit: contain;
 
 }_
